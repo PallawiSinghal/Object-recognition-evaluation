@@ -2,8 +2,8 @@ import cv2
 import os
 import numpy as np
 import datetime
-image_folder_path = "/Users/pallawi/dev/AI/Data/"
-output_folder = "/Users/pallawi/dev/AI/Results/"
+image_folder_path = "/Data/"
+output_folder = "/output/"
 
 def morphology(Cannyedges):
     kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE,(7,7))
